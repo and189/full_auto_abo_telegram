@@ -96,13 +96,13 @@ ALTER TABLE `users`
 Name der Tabelle muss in --> config_example.php angepasst werden!!
 
 
-```
 CREATE TABLE `abos` (
   `id` int(11) NOT NULL,
   `buyerName` varchar(155) NOT NULL,
   `buyerEmail` varchar(255) NOT NULL,
   `Amount` varchar(5) NOT NULL,
   `TelegramUser` varchar(155) NOT NULL,
+  `userid` bigint(10) DEFAULT NULL,
   `channels` varchar(55) NOT NULL,
   `pass` varchar(8) NOT NULL,
   `paydate` datetime NOT NULL,
@@ -158,11 +158,11 @@ COMMIT;
 ```
 ### SQL channels
 
-```
-CREATE TABLE `channels` (
+```CREATE TABLE `channels` (
   `id` int(11) NOT NULL,
   `name` varchar(155) NOT NULL,
-  `url` varchar(155) NOT NULL
+  `url` varchar(155) NOT NULL,
+  `chatid` bigint(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --

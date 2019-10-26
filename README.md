@@ -3,6 +3,18 @@ Ein voll Automatisiertes Abo- System für mehrerere Telegram Kanäle
 
 Support On <a href="https://discord.gg/jsvX9pz">Discord</a>
 
+
+
+### BotFather erstellen
+
+Als ersten Schritt gebe ich im Suchfeld des Telegram-Clients "BotFather" ein und beginne einen Chat mit ihm.
+
+Mit /newbot wird ein neuer Bot erstellt. Anschließend müssen im Dialog der Botname und der Benutzername angegeben werden.
+
+Sign up for Telegram using any application.
+Log in to your Telegram core: https://my.telegram.org.
+Go to ‘https://my.telegram.org/apps’ and fill out the form.
+You will get basic addresses as well as the api_id and api_hash parameters required for the TelegramApiServer config.
 ### Install
 
 lade folgendes in den admin/ ordner
@@ -12,11 +24,6 @@ https://github.com/xtrime-ru/TelegramApiServer.git
 
 
 
-composer install to install required libs
-
-Create .env from .env.example
-
-Fill variables in .env
 
 
 ### PayPal API einrichten

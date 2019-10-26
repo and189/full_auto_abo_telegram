@@ -30,12 +30,17 @@ installiere Composer // google ist dein freund ;)
 
 anschließend die.env.example in .env umbenennen und die SERVER_ADDRESSE sowie die Parameter einfügen aus Schritt 1.2
 
-anschließend  im Ordner TelegramApiServer folgendes command ausführen zum Starten der Api
+anschließend  im Ordner TelegramApiServer
+folgendes command ausführen zum Starten der Api
+
 php server.php
+
 danach auf mit a bestätigen für automatisch
+
 dann wähle b für Bot
+
 jetzt musst du dein bot Namen und HTTP TOKEN vom BotFather einfügen
-fertig 
+
 ### PayPal API einrichten
 Logge dich in deinen PayPal Account ein! Danach öffne im selben Browser-Tab folgende URL:
 

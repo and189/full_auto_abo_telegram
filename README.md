@@ -9,45 +9,30 @@ Support On <a href="https://discord.gg/jsvX9pz">Discord</a>
 Als ersten Schritt gebe ich im Suchfeld des Telegram-Clients "BotFather" ein und beginne einen Chat mit ihm.
 
 Mit /newbot wird ein neuer Bot erstellt. Anschließend müssen im Dialog der Botname und der Benutzername angegeben werden.
+ 
+Der BotFather antwortet, wie oben zusehen, mit einem Token für die HTTP-API (HTTP-Token).
 
-gehe auf  ‘https://my.telegram.org/apps’ log dich ein unter "API development tools"  bekommst du deine basic api_id und api_hash parameter für die TelegramApiServer configuration..
+### 1.2
+gehe auf  ‘https://my.telegram.org/apps’ und loge dich  mit deiner Handynummer ein, klicke dann auf  "API development tools"  hier siehst  du deine basic api_id und api_hash parameter für die TelegramApiServer configuration..
 
 
 
 ### Instalation von full_auto_abo_telegram und TelegramApiServer
+
 cd /var/www/html
+
 git clone https://github.com/Micha854/full_auto_abo_telegram.git    
+
 dann lade folgendes in den admin/ ordner im unterverzeichnis von  full_auto_abo_telegram 
+
 git clone https://github.com/xtrime-ru/TelegramApiServer.git
 
+
 ### konfiguration von TelegramApiServer
-installiere Composer 
 
-anschliesend die.env.example in .env umbenennen und  die parameter anpassen
+installiere Composer // google ist dein freund ;)
 
-# SWOOLE
-SERVER_ADDRESS=178.238.239.82
-SERVER_PORT=9503
-
-# Separate with comma
-IP_WHITELIST=127.0.0.1,109.192.80.140
-
-# TELEGRAM CLIENT
-TELEGRAM_API_ID=1117226
-TELEGRAM_API_HASH=dd961c0c0e9d45cc12e979ce895e69c0 
-# FATAL = 0; ERROR = 1; WARNING = 2; const NOTICE = 3; VERBOSE = 4; ULTRA_VERBO$
-LOGGER_LEVEL=3
-
-# TELEGRAM SOCKS5 PROXY (optional)
-TELEGRAM_PROXY_ADDRESS=
-TELEGRAM_PROXY_PORT=
-TELEGRAM_PROXY_USERNAME=
-TELEGRAM_PROXY_PASSWORD=
-
-
-
-
-
+anschliesend die.env.example in .env umbenennen SERVER_ADDRESSE anpassen und  die parameter  einfügen aus  Schritt ### 1.2
 
 
 ### PayPal API einrichten

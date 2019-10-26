@@ -30,7 +30,7 @@ installiere Composer // google ist dein freund ;)
 
 anschließend die.env.example in .env umbenennen und die SERVER_ADDRESSE sowie die Parameter einfügen aus Schritt 1.2
 
-anschließend  im Ordner TelegramApiServer
+### 2 Starten der TelegramApiServer
 folgendes command ausführen zum Starten der Api
 
 php server.php
